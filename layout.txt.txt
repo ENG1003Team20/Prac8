@@ -1,0 +1,66 @@
+<html>
+
+<head>
+  <!-- Material Design Lite -->
+  <script src="https://storage.googleapis.com/code.getmdl.io/1.0.5/material.min.js"></script>
+  <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.5/material.indigo-pink.min.css">
+  <!-- Material Design icon font -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<style>
+    .test {
+        display:inline;       
+}
+    
+    h1 {
+        text-align: center;
+        font-size: 100;     
+    }
+    
+    button {  
+     width: 10%;
+     height: 10%;
+    }
+    
+</style>
+
+<body>
+    <!--Creating a button on the top right for Settings-->
+    <div class='test'>
+        <div style='float: left;'>
+            <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+                <i class="material-icons">account_circle</i></button>
+        </div>
+        
+        <div style='float: right;'>
+            <button  class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+                <i class="material-icons" >settings</i></button> 
+        </div>
+    </div>
+    
+    <!--Create the word "DO IT" in the middle-->
+     <h1>DO IT</h1>
+    <fieldset>
+    <!--Create 2 button for "LOGIN" and "SIGN UP" at the center and the size is adjusted above at line 24-27-->
+  <div style="text-align:center">
+      <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
+          LOGIN
+      </button>
+  </div> 
+    
+  <div> . 
+    </div>
+    
+  <div style="text-align:center">
+      <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
+          SIGN UP
+      </button>
+  </div>
+        </fieldset>
+    
+    
+    
+
+</body>
+
+</html>
